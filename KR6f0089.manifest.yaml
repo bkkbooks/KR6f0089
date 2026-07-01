@@ -1,0 +1,83 @@
+canonical_identifier: bkk:krp/KR6f0089/v1
+canonical_location: https://kanripo.org/bkk/KR6f0089/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 阿彌陀經通贊疏
+  identifiers:
+    alt_id:
+    - T37n1758
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T37/T37n1758.xml
+    old_id: T37n1758
+  edition:
+    short: bkk
+editions:
+- short: 原
+  label: 原
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 甲
+  label: 甲
+  source_xml_id: wit2
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6f0089_000.yaml, hash: 'sha256:e5c3f004dc6b8ab8bed1acb72c75bc4b67334e69653fb03816c2d1234d6fd820'}
+  - {seq: 1, filename: KR6f0089_001.yaml, hash: 'sha256:9577af3289abc6661d28569d3d288a6e7671d78ef43826fb0723989c68ffbf70'}
+  - {seq: 2, filename: KR6f0089_002.yaml, hash: 'sha256:c003e6c28dedc4c3a87adba47ab5dc674c9e78be364e107d08a036e17ddb6bb2'}
+  - {seq: 3, filename: KR6f0089_003.yaml, hash: 'sha256:20266c7f6c2f8171f5011f6ffb626d76ee97def76c06bf1dee1435cd75d16a68'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6f0089_000.markers.yaml, hash: 'sha256:3583218dd9844649c013f83d3945f1c9f2d012c300907597bf6a0b5a16ea4b66'}
+  - {seq: 1, role: markers, filename: assets/KR6f0089_001.markers.yaml, hash: 'sha256:3d78736a97daed58476571a51c493498189720bbc886413b1a1ba8777616d30b'}
+  - {seq: 2, role: markers, filename: assets/KR6f0089_002.markers.yaml, hash: 'sha256:9204ab7568f8d0c92389cf6973aef45561f49d32b7a9940fcfb9c254e0e427c5'}
+  - {seq: 3, role: markers, filename: assets/KR6f0089_003.markers.yaml, hash: 'sha256:99d17b9c59a5b71350ac028701244b2deace10b11937c2798e81178c4cc33941'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6f0089_T_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 阿彌陀經通贊疏序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6f0089_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 9386
+  label: 阿彌陀經通贊疏卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6f0089_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 8197
+  label: 阿彌陀經通贊疏卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6f0089_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 6302
+  label: 阿彌陀經通贊疏卷下
+  type: juan
+  level: 1
+hash: sha256:f03de3d759b6a10742ab4aa8aa1f47f111af64e0ecc2fe4fa6575cb4e23f17a8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
