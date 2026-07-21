@@ -19,12 +19,12 @@ metadata:
     short: T
 assets:
   parts:
-  - {seq: 0, filename: KR6f0089_000-T.yaml, hash: 'sha256:127dee4906640afdb90e113211c456d6c325641b4c52ec96fe867247a52b8725'}
+  - {seq: 0, filename: KR6f0089_000-T.yaml, hash: 'sha256:a53a5dde3f235951c4726b9d14c34d773213a9857cfaf981d4cce49ffae12d71'}
   - {seq: 1, filename: KR6f0089_001-T.yaml, hash: 'sha256:e696ccc1694937c56424bdecf3200f08ab3b29b996b7645d0893f1c3fca5a1b4'}
   - {seq: 2, filename: KR6f0089_002-T.yaml, hash: 'sha256:2bbebe54b3a7a6495da076458e360840570d42f9e978e187f7ea388fbdb1c7cb'}
   - {seq: 3, filename: KR6f0089_003-T.yaml, hash: 'sha256:d6fe27e20fcaecac3d7aa73aa431c8c890e8b47e63517a02b53321bc575c4826'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6f0089_000-T.markers.yaml, hash: 'sha256:8ae53c691eee11d04e938a51c274581239c12aae717d507b65cf9126d2753a1c'}
+  - {seq: 0, role: markers, filename: assets/KR6f0089_000-T.markers.yaml, hash: 'sha256:881acd591f75567aab992b8d143dd0bd1552d12509ef52593bb75e403e8a9a06'}
   - {seq: 1, role: markers, filename: assets/KR6f0089_001-T.markers.yaml, hash: 'sha256:e73f66071e7d1afc30a022a43c74b61b709d624cde65781c236853770a07889c'}
   - {seq: 2, role: markers, filename: assets/KR6f0089_002-T.markers.yaml, hash: 'sha256:a5413c00ed1838bcc62a24839dc8994c4f3686fd08df7a1ec44acc4fe0084965'}
   - {seq: 3, role: markers, filename: assets/KR6f0089_003-T.markers.yaml, hash: 'sha256:1f511ff1bfdc527011b924cd37a72de733e1f97347d7cf7fec076866fde084d7'}
@@ -33,7 +33,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6f0089_T_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 阿彌陀經通贊疏序
@@ -69,4 +69,4 @@ table_of_contents:
   label: 阿彌陀經通贊疏卷下
   type: juan
   level: 1
-hash: sha256:c0d8024ed47fbb26f3974cc4f1f4b22b0ea7b6c00119be9cbf2e82ee30cbf5ec
+hash: sha256:ee2779f918042e0f220f01d2527ff621f2c85edfb112c1ad2215603d9ea9825e
